@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Planets</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo">Parallax Movement.</div>
+      <div class="nav-links">
+        <ul>
+          <li><img src="images/linkedin.png" alt="" /></li>
+          <li><img src="images/facebook.png" alt="" /></li>
+          <li><img src="images/instagram-logo.png" alt="" /></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="sectionone" class="screen">
+      <div id="scene">
+        <div data-depth="0.01" class="bg">
+          <img src="images/background.png" alt="" />
+        </div>
+        <div data-depth="1.1" class="rock1">
+          <img src="images/rock.png" alt="" />
+        </div>
+        <div data-depth="2.2" class="earth">
+          <img src="images/moon.png" alt="" />
+        </div>
+        <div data-depth="0.2" class="text">
+          <h1>Welcome</h1>
+        </div>
+        <div data-depth="0.4" class="mid">
+          <img src="images/mid.png" alt="" />
+        </div>
+        <div data-depth="0.1" class="fore">
+          <img src="images/foreground.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>
