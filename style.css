@@ -214,8 +214,9 @@ section {
 }
 
 .slide-detail {
+  font-family: 'Quicksand', sans-serif;
   position: absolute;
-  top: 130px;
+  top: 110px;
   left: 30%;
   z-index: 10;
   width: 50%;
@@ -224,7 +225,7 @@ section {
 }
 
 .slide-detail p {
-  font-size: 14px;
+  font-size: 15px;
   color: #fff;
   position: relative;
   opacity: 0.8;
@@ -250,6 +251,7 @@ section {
   position: relative;
 }
 .slide-detail-facts div h5 {
+  font-family: 'Bebas Neue', cursive;
   margin-right: 20px;
 }
 
